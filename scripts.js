@@ -46,7 +46,17 @@ scrollToTop.addEventListener("click", function() {
       fadeIn.style.transform = "translateY(20px)";
       fadeIn.style.animation = "fadeIn 1s ease-in-out forwards";
     });
-  
+document.getElementById('about-button').addEventListener('click', function() {
+  window.location.href = 'About.html';
+});
+
+document.getElementById('projects-button').addEventListener('click', function() {
+  window.location.href = 'Projects.html';
+});
+
+document.getElementById('contact-button').addEventListener('click', function() {
+  window.location.href = 'Contact.html';
+});  
     // Toggle menu on mobile devices
     const menuToggle = document.querySelector(".menu-toggle");
     const menu = document.querySelector(".menu");
